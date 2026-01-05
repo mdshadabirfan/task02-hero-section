@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background: url(./antartica-hero-section.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#heroSection{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.944), rgba(255, 255, 255, 0));
+    text-align: center;
+    padding-top: 30px;
+}
+#heroSection h1{
+    font-size: 150px;
+    color: white;
+    text-transform: uppercase;
+}
+#heroSection p{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.896);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#heroSection button{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+}
+#heroSection button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.378);
+}
